@@ -1,6 +1,4 @@
 "use client";
-
-import Link from "next/link";
 import React from "react";
 import ArrowIcon from "../../../public/Admin/Arrow";
 import GithubIcon from "../../../public/Admin/GitHubIcon";
@@ -10,7 +8,6 @@ import Image from "next/image";
 import SpotifyImg from "../../../public/assets/spotify.jpg";
 import GeminiImg from "../../../public/assets/Gemini.jpg";
 import LTMImg from "../../../public/assets/LTM.jpg";
-import BlogImg from "../../../public/assets/Blog_d_Prj_img.png";
 
 import { StarsBackground } from "@/components/ui/stars-background";
 
