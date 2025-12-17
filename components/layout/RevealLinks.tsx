@@ -46,17 +46,35 @@ export const RevealLinks = () => {
           <FlipWords words={words} />
         </div>
 
-        <motion.h3
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{
-            opacity: { duration: 0.7, ease: "easeOut" },
-            y: { duration: 0.7, ease: "easeOut" }
-          }}
-          className="sm:text-md mt-10 text-sm tracking-wider text-gray-400 md:text-lg"
-        >
-          I’m an <span className="text-color-AAsecondary font-bold">AI & Machine Learning Engineer</span> working across <span className="text-color-AAsecondary font-bold">data science</span>, <span className="text-color-AAsecondary font-bold">deep learning</span>, <span className="text-color-AAsecondary font-bold">NLP</span> and <span className="text-color-AAsecondary font-bold">generative AI</span>. I build intelligent systems that analyse data, automate tasks and deliver practical insights. My experience spans <span className="text-color-AAsecondary font-bold">end to end ML pipelines</span> with expertise in <span className="text-color-AAsecondary font-bold">transformers</span>, <span className="text-color-AAsecondary font-bold">LSTMs</span>, <span className="text-color-AAsecondary font-bold">RAG</span>, <span className="text-color-AAsecondary font-bold">GANs</span> and <span className="text-color-AAsecondary font-bold">LangChain</span>. I enjoy creating <span className="text-color-AAsecondary font-bold">real world AI solutions</span> that feel simple for users but are powered by sophisticated models underneath.
-        </motion.h3>
+<motion.h3
+  initial={{ y: 10, opacity: 0 }}
+  animate={{ y: 0, opacity: 1 }}
+  transition={{
+    opacity: { duration: 0.7, ease: "easeOut" },
+    y: { duration: 0.7, ease: "easeOut" }
+  }}
+  className="mt-10 text-sm tracking-wider text-gray-400 md:text-lg"
+>
+  I turn <span className="text-color-AAsecondary font-bold">raw data</span> into{" "}
+  <span className="text-color-AAsecondary font-bold">clear insights</span> and{" "}
+  <span className="text-color-AAsecondary font-bold">predictive solutions</span>. 
+  My work sits at the intersection of{" "}
+  <span className="text-color-AAsecondary font-bold">data analysis</span> and{" "}
+  <span className="text-color-AAsecondary font-bold">machine learning</span>, 
+  using <span className="text-color-AAsecondary font-bold">SQL</span>,{" "}
+  <span className="text-color-AAsecondary font-bold">Python</span>, and{" "}
+  <span className="text-color-AAsecondary font-bold">Power BI</span> to explore data, 
+  build dashboards, and answer{" "}
+  <span className="text-color-AAsecondary font-bold">business questions</span>. 
+  I also apply{" "}
+  <span className="text-color-AAsecondary font-bold">machine learning models</span> 
+  to forecast trends and support{" "}
+  <span className="text-color-AAsecondary font-bold">smarter decision making</span>, 
+  focusing on{" "}
+  <span className="text-color-AAsecondary font-bold">practical real world problems</span>{" "}
+  with solutions that are easy to understand, reliable to use, and valuable to teams.
+</motion.h3>
+
 
         <motion.div
           initial={{ y: 10, opacity: 0 }}
