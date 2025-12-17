@@ -9,10 +9,10 @@ export default function AboutMe() {
   // Tech stack: prefer content file, fall back to sensible defaults
   const techFromContent =
     (hari as any)?.tech ||
-    [
-      ["Python", "Power BI", "DAX", "Power Query"],
-      ["PostgreSQL", "FastAPI", "Streamlit", "Docker"],
-    ];
+      [
+        ["Python", "SQL", "Excel", "Pandas", "NumPy"],
+        ["Scikit-learn", "TensorFlow / Keras", "NLP", "RAG", "Agentic AI"],
+      ];
 
   // Maintain your two-column tech grid shape
   const technologies: string[][] = [
@@ -21,12 +21,12 @@ export default function AboutMe() {
   ];
 
   // Paragraphs from content; graceful defaults if content is missing
-  const paragraphs =
-    hari?.about?.body ?? [
-      `Hello! My name is ${hari?.name ?? "Hariharan S"} and I use Data Science, Machine Learning, and AI to turn data into solutions.`,
-      "I work across data science, machine learning, deep learning, and generative AI to solve problems using data. I enjoy understanding how things work, finding patterns, and building systems that learn from experience.",
-      "My focus is on tools that feel simple on the surface but use smart models underneath—analysing data, predicting outcomes, and building natural-language interfaces end-to-end.",
-    ];
+ const paragraphs =
+  [
+    "I’m a Data Scientist & Machine Learning Engineer working across data science, machine learning, deep learning, NLP, and generative AI. I build intelligent systems that analyse data, automate decision-making, and deliver actionable insights.",
+    "My experience spans end-to-end data and ML workflows, from SQL-based data extraction and Python-driven analysis to Power BI dashboards and production-ready ML deployment. I work with classical ML, deep learning, transformers, LLMs, RAG pipelines, GANs, and LangChain to create scalable AI solutions that stay simple for users."
+  ];
+
 
   return (
     <Section

@@ -8,6 +8,7 @@ import Image from "next/image";
 import SpotifyImg from "../../../public/assets/spotify.jpg";
 import GeminiImg from "../../../public/assets/Gemini.jpg";
 import LTMImg from "../../../public/assets/LTM.jpg";
+import LSTM from "../../../public/assets/LSTM.jpeg";
 
 import { StarsBackground } from "@/components/ui/stars-background";
 
@@ -137,7 +138,7 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative w-full md:grid md:h-96 md:grid-cols-12">
           <div className="absolute z-10 hidden size-full grid-cols-12 content-center py-4 md:grid">
             <div className="relative col-span-7 col-start-6 size-full rounded">
-              <Image src={LTMImg} alt="Translation model preview" className="ml-20 rounded-xl" />
+              <Image src={LSTM} alt="Translation model preview" className="ml-20 rounded-xl" />
             </div>
           </div>
 

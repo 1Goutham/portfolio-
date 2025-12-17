@@ -67,7 +67,7 @@ export const RevealLinks = () => {
           }}
           className="mt-6"
         >
-          <a href={"/HariharanS.pdf"} target="_blank" rel="noreferrer">
+          <a href={"/HARIHARAN_SELVAM.pdf"} target="_blank" rel="noreferrer">
             <Button className="block p-4">Check out my resume !</Button>
           </a>
         </motion.div>
